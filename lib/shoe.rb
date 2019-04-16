@@ -13,7 +13,7 @@ class Shoe
     # BRANDS.map do |brand|
     #   binding.pry
     #   if brand != given_brand 
-    #     BRANDS << given_brand
+       BRANDS << given_brand
     #   else 
     #     BRANDS
     #   end
