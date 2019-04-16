@@ -11,6 +11,8 @@ class Shoe
     @brand = given_brand
     
     BRANDS << given_brand
+    BRANDS.each do |brand|
+      if 
     BRANDS = BRANDS.uniq 
 
   end
