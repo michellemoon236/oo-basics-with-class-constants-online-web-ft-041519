@@ -15,7 +15,7 @@ class Shoe
     #   binding.pry
     #   if brand
     # #BRANDS = BRANDS.uniq 
-  end
+  #end
   end
 
   def cobble
