@@ -11,6 +11,7 @@ class Shoe
     @brand = given_brand
     
     BRANDS << given_brand
+    binding.pry
     BRANDS = BRANDS.uniq
 
   end
