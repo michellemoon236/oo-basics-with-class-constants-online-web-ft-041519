@@ -10,11 +10,11 @@ class Shoe
   def initialize(given_brand)
     @brand = given_brand
     
-    BRANDS << given_brand
-    BRANDS.each do |brand|
-      binding.pry
-      if brand
-    #BRANDS = BRANDS.uniq 
+    BRANDS << given_brand unless BRANDS.include?(given_brand)
+    # BRANDS.each do |brand|
+    #   binding.pry
+    #   if brand
+    # #BRANDS = BRANDS.uniq 
   end
   end
 
