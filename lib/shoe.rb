@@ -11,7 +11,7 @@ class Shoe
       if brand == given_brand 
         BRANDS
       else 
-        BRANDS << brand
+        BRANDS << given_brand
       end
     end
   end
