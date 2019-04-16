@@ -6,6 +6,7 @@ class Shoe
   
   BRANDS = []
   
+  binding.pry
   def initialize(given_brand)
     @brand = given_brand
     
