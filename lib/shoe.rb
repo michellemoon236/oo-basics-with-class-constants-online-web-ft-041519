@@ -9,9 +9,9 @@ class Shoe
     
     BRANDS.each do |brand|
       if brand != given_brand 
-        BRANDS
-      else 
         BRANDS << given_brand
+      else 
+        BRANDS
       end
     end
   end
