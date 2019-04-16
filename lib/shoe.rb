@@ -13,6 +13,7 @@ class Shoe
     BRANDS << given_brand
     BRANDS.each do |brand|
       binding.pry
+      if brand
     #BRANDS = BRANDS.uniq 
   end
   end
