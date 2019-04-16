@@ -13,7 +13,6 @@ class Shoe
     BRANDS << given_brand
     BRANDS = BRANDS.uniq
 
-    end
   end
 
   def cobble
