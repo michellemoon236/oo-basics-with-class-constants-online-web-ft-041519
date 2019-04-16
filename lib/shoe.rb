@@ -10,7 +10,7 @@ class Shoe
   def initialize(given_brand)
     @brand = given_brand
     
-    BRANDS.each do |brand|
+    BRANDS.map do |brand|
       binding.pry
       if brand != given_brand 
         BRANDS << given_brand
