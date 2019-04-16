@@ -12,7 +12,7 @@ class Shoe
     
     BRANDS << given_brand
     binding.pry
-    BRANDS = BRANDS.to_set
+    BRANDS=BRANDS.uniq 
 
   end
 
