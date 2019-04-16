@@ -1,3 +1,5 @@
+require 'pry'
+
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
@@ -8,6 +10,7 @@ class Shoe
     @brand = given_brand
     
     BRANDS.each do |brand|
+      binding.pry
       if brand != given_brand 
         BRANDS << given_brand
       else 
